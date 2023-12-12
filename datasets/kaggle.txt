@@ -1,0 +1,10 @@
+chazzer/smiling-or-not-face-data
+ananthu017/emotion-detection-fer
+sanidhyak/human-face-emotions
+astraszab/facial-expression-dataset-image-folders-fer2013
+
+
+
+
+
+

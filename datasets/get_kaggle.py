@@ -1,7 +1,11 @@
 import os
 
 def get_dataset(dataset):
-    os.system(f"kaggle datasets download {dataset} --unzip")
+    dataset_name = dataset.split('/')[-1]
+    dataset_path = f'./{dataset_name}'
+    if(not os.path.exists(dataset_path)):
+        os.mkdir(dataset_path)
+    os.system(f"kaggle datasets download {dataset} --path {dataset_path} --unzip")
 
 def get_datasets(datasets_file):
     print("---Getting data from kaggle---")    

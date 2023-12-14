@@ -6,3 +6,4 @@ jupyterlab
 matplotlib
 numpy
 pandas
+opencv-python
